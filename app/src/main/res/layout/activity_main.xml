@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context="com.example.saveMe.MainActivity"
     android:background="@drawable/home_screen">
 
     <Button
         android:id="@+id/my_trips_button"
-        android:layout_width="158dp"
-        android:layout_height="138dp"
+        android:layout_width="156dp"
+        android:layout_height="146dp"
         android:background="@drawable/my_trips_button"
         android:onClick="openMyTrips"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,5 +18,5 @@
         app:layout_constraintHorizontal_bias="0.889"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.534" />
+        app:layout_constraintVertical_bias="0.583" />
 </androidx.constraintlayout.widget.ConstraintLayout>

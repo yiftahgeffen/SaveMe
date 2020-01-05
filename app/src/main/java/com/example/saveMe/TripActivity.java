@@ -1,8 +1,10 @@
-package com.example.hackathon;
+package com.example.saveMe;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.hackathon.R;
 
 public class TripActivity extends AppCompatActivity {
 

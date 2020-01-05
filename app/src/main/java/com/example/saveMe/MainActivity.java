@@ -1,10 +1,12 @@
-package com.example.hackathon;
+package com.example.saveMe;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.hackathon.R;
 
 public class MainActivity extends AppCompatActivity {
 
