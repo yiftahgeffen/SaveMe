@@ -32,16 +32,14 @@ public class TripActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
          MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
-        System.out.println("helle_2");
         return true;
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        System.out.println("helle_3");
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.wearable_devices:
-                Intent intent = new Intent(this, MainActivity.class);
+                Intent intent = new Intent(this, WearableActivity.class);
                 startActivity(intent);
                 return true;
             default:

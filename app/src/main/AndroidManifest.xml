@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name="com.example.saveMe.EmergencyContacts"></activity>
+        <activity android:name="com.example.saveMe.WearableActivity"></activity>
+        <activity android:name="com.example.saveMe.EmergencyContacts" />
         <activity
             android:name="com.example.saveMe.TripActivity"
             android:label="@string/trip_name"
