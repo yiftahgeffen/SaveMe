@@ -6,14 +6,50 @@
     android:layout_height="match_parent"
     tools:context="com.example.saveMe.TripActivity">
 
+<!--    <androidx.appcompat.widget.Toolbar-->
+        android:id="@+id/toolbar"
+        style="@style/ActionbarCustomStyle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="top"
+        android:background="@android:color/holo_green_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitleTextAppearance="@style/ToolbarSubtitleAppearance"
+        app:titleTextAppearance="@style/ToolbarTitleAppearance" />
+
+<!--    <View-->
+        android:id="@+id/magic_stripe"
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/wsc01"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toleftOf="parent"
+        app:layout_constraintBottom_toRightOf="parent"/>
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_width="415dp"
+        android:layout_height="739dp"
         android:background="@drawable/itinerary_no_alerts"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/trips_button"
+        android:layout_width="67dp"
+        android:layout_height="65dp"
+        android:background="@drawable/trip_button"
+        android:onClick="openMenuBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 

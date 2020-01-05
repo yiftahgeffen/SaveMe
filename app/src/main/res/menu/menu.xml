@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_edit_trip"
+        android:title="@string/menu_edit_trip"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_weather"
+        android:title="@string/menu_check_weather"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_map"
+        android:title="@string/menu_view_map"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_flight"
+        android:title="@string/menu_add_flight"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_hotel"
+        android:title="@string/menu_add_hotel"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_car"
+        android:title="@string/menu_add_car"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_transportation"
+        android:title="@string/menu_add_transportation"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_meeting"
+        android:title="@string/menu_add_meeting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/menu_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+
+</menu>
