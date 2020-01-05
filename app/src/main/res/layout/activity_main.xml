@@ -8,11 +8,11 @@
     android:background="@drawable/home_screen">
 
     <Button
-        android:id="@+id/connect_to_wearable"
+        android:id="@+id/my_trips_button"
         android:layout_width="158dp"
         android:layout_height="138dp"
-        android:background="@drawable/connect_to_wearable_button"
-        android:onClick="openWearableActivity"
+        android:background="@drawable/my_trips_button"
+        android:onClick="openMyTrips"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.889"

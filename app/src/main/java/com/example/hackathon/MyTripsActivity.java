@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MyTripsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_mytrips);
     }
 
-    public void openMyTrips(View view) {
-        Intent intent = new Intent(this, MyTripsActivity.class);
+    public void openTrip(View view) {
+        Intent intent = new Intent(this, TripActivity.class);
         startActivity(intent);
     }
 }
