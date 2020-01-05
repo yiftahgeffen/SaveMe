@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Colors -->
+    <color name="wpc01">#ffa593</color>
+    <!-- Primary Color -->
+    <!-- @THEME_COLOR_RES_SOURCE -->
+    <color name="wpc02">#4072de</color>
+    <!-- Primary Color, alpha variants: END  -->
+    <color name="wpc03">#6b90c5</color>
+    <color name="wpc04">#6b90c5</color>
+    <color name="wpc05">#ffe89f</color>
+    <color name="wpc06">#CB533B</color>
+    <color name="wpc07">#fc6640</color>
+    <color name="wpc08">#ff6040</color>
+
+    <!-- Informative Colors -->
+    <color name="wic01">#15a1ff</color>
+    <color name="wic02">#1a6ee6</color>
+    <color name="wic03">#1061cc</color>
+
+
+    <!-- Approval Colors -->
+    <color name="wac01">#36aa00</color>
+    <color name="wac02">#9cc83c</color>
+    <color name="wac03">#699800</color>
+    <color name="wac04">#3fad0b</color>
+
+    <!-- Secondary Colors -->
+    <color name="wsc01">#f2a900</color>
+    <color name="wsc02">#ffd44d</color>
+    <color name="wsc03">#ffe89f</color>
+    <color name="advisory_line_color">#f7f3e0</color>
+
+    <!-- Warning Colors -->
+    <color name="wwc01">#EC1561</color>
+    <color name="wwc02">#ff0c3e</color>
+
+    <!-- Texts Colors -->
+    <color name="wtx01">#838a90</color>
+    <color name="wtx02">#37474f</color>
+    <color name="wtx03">#333f48</color>
+    <color name="wtx04">#2f4850</color>
+    <color name="wtx05">#8f98a3</color>
+    <color name="wtx06">#4a4a4a</color>
+
+    <!-- Main -->
+    <!-- @THEME_COLOR_RES_SOURCE -->
+    <color name="wtc01">#333f48</color>
+    <color name="wtc02">#47525a</color>
+    <color name="wtc03">#5b656c</color>
+    <color name="wtc04">#6f787e</color>
+    <color name="wtc05">#838b90</color>
+    <color name="wtc06">#979ea2</color>
+    <color name="wtc07">#abb1b4</color>
+    <color name="wtc08">#bfc4c6</color>
+    <!-- Disabled -->
+    <color name="wtc09">#ABB1B4</color>
+    <color name="wtc10">#e7eaea</color>
+    <!-- Background -->
+    <color name="wtc11">#f2f3f5</color>
+    <color name="wtc12">#e4e8ee</color>
+    <color name="wtc13">#7fe6e9ed</color>
+    <color name="wtc19">#979da2</color>
+
+    <!--sso multiple accounts cell-->
+    <color name="wtc20">#f7f8f8</color>
+    <color name="wtc21">#979797</color>
+
+    <color name="wtc22">#9b9b9b</color>
+    <color name="wtc23">#e7e9ea</color>
+    <color name="wtc24">#d3d6d8</color>
+    <color name="wtc25">#798a91</color>
+    <color name="wtc26">#f1f3f5</color>
+
+
+
+</resources>

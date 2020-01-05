@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    //test commits
     public void openMyTrips(View view) {
         Intent intent = new Intent(this, MyTripsActivity.class);
         startActivity(intent);
