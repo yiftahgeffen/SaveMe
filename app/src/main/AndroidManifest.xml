@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name="com.example.saveMe.TripActivity" />
+        <activity android:name="com.example.saveMe.TripActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:label="@string/trip_name"/>
         <activity android:name="com.example.saveMe.MyTripsActivity" />
         <activity android:name="com.example.saveMe.MainActivity">
             <intent-filter>
