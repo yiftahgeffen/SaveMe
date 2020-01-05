@@ -13,37 +13,58 @@
         android:textColor="#FF6040"
         android:textSize="30sp"
         android:textStyle="bold|italic" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/darker_gray"/>
     <CheckBox
         android:id="@+id/judge1"
         android:layout_width="199dp"
         android:layout_height="83dp"
-        android:buttonTint="#FF6040"
+        android:buttonTint="@android:color/holo_green_light"
         android:text="Ofek Rom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FF6040"
         android:textSize="24sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
     <CheckBox
         android:id="@+id/judge2"
         android:layout_width="199dp"
         android:layout_height="85dp"
         android:text="Rami Citron"
         android:textColor="#FF6040"
-        android:buttonTint="#FF6040"
+        android:buttonTint="@android:color/holo_green_light"
         android:textColorHint="@android:color/black"
         android:textSize="24sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
     <CheckBox
         android:id="@+id/judge3"
         android:layout_width="199dp"
         android:layout_height="79dp"
         android:text="Gil Levy"
         android:textColor="#FF6040"
-        android:buttonTint="#FF6040"
+        android:buttonTint="@android:color/holo_green_light"
         android:textSize="24sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
     <CheckBox
         android:id="@+id/judge4"
         android:layout_width="199dp"
         android:layout_height="76dp"
-        android:buttonTint="#FF6040"
+        android:buttonTint="@android:color/holo_green_light"
         android:text="Oz Richte"
         android:textColor="#FF6040"
         android:textSize="24sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
 </LinearLayout>
