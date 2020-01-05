@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f1f3f5"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:gravity="center"
+        android:text="Emergency Contacts"
+        android:textColor="#FF6040"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+    <CheckBox
+        android:id="@+id/judge1"
+        android:layout_width="199dp"
+        android:layout_height="83dp"
+        android:buttonTint="#FF6040"
+        android:text="Ofek Rom"
+        android:textColor="#FF6040"
+        android:textSize="24sp" />
+    <CheckBox
+        android:id="@+id/judge2"
+        android:layout_width="199dp"
+        android:layout_height="85dp"
+        android:text="Rami Citron"
+        android:textColor="#FF6040"
+        android:buttonTint="#FF6040"
+        android:textColorHint="@android:color/black"
+        android:textSize="24sp" />
+    <CheckBox
+        android:id="@+id/judge3"
+        android:layout_width="199dp"
+        android:layout_height="79dp"
+        android:text="Gil Levy"
+        android:textColor="#FF6040"
+        android:buttonTint="#FF6040"
+        android:textSize="24sp" />
+    <CheckBox
+        android:id="@+id/judge4"
+        android:layout_width="199dp"
+        android:layout_height="76dp"
+        android:buttonTint="#FF6040"
+        android:text="Oz Richte"
+        android:textColor="#FF6040"
+        android:textSize="24sp" />
+</LinearLayout>

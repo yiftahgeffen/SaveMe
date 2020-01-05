@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name="com.example.saveMe.TripActivity"
-            android:theme="@style/Theme.AppCompat.Light"
-            android:label="@string/trip_name"/>
+        <activity android:name="com.example.saveMe.EmergencyContacts"></activity>
+        <activity
+            android:name="com.example.saveMe.TripActivity"
+            android:label="@string/trip_name"
+            android:theme="@style/Theme.AppCompat.Light" />
         <activity android:name="com.example.saveMe.MyTripsActivity" />
         <activity android:name="com.example.saveMe.MainActivity">
             <intent-filter>
